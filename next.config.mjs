@@ -9,7 +9,8 @@ try {
 const nextConfig = {
   output: 'export',
   distDir: 'build',
-  assetPrefix: '/_next',
+  basePath: process.env.NODE_ENV === 'production' ? '/portfolio' : '', // Replace <your-repo-name>
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio' : '', // Replace <your-repo-name>
   eslint: {
     ignoreDuringBuilds: true,
   },
