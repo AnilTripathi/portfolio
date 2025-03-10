@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className="bg-blue-600 text-white py-20">
+    <section className="bg-blue-600 text-white py-8">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Anil Kumar Tripathi</h1>
@@ -11,7 +11,7 @@ const Hero = () => {
           <a href="#contact" className="bg-white text-blue-600 py-2 px-6 rounded-full text-lg font-semibold hover:bg-blue-100 transition duration-300">Get in Touch</a>
         </div>
         <div className="md:w-1/2">
-          <Image src="/portfolio/profile-image.jpeg" alt="Anil Kumar Tripathi - Lead Full Stack Java Developer" width={400} height={400} className="rounded-full mx-auto" />
+          <Image src="/portfolio/profile-image.jpeg" alt="Anil Kumar Tripathi - Lead Full Stack Java Developer" width={300} height={300} className="rounded-full mx-auto" />
         </div>
       </div>
     </section>
