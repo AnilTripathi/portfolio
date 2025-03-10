@@ -1,9 +1,9 @@
-import { Code, Database, Server, Layout, Cloud, GitBranch, Package, TestTube, PenToolIcon as Tool, CheckCircle } from 'lucide-react'
+import { Code, Database, Server, Layout, Cloud, GitBranch, Package, TestTube, PenToolIcon as Tool, CheckCircle, Leaf } from 'lucide-react'
 
 const skills = [
   { name: "Java", years: "11+", icon: Code },
   { name: "Spring MVC", years: "11+", icon: Server },
-  { name: "Spring Boot", years: "7+", icon: Server },
+  { name: "Spring Boot", years: "7+", icon: Leaf },
   { name: "MySQL Database", years: "10+", icon: Database },
   { name: "Hibernate", years: "11+", icon: Database },
   { name: "Microservices", years: "2", icon: Server },

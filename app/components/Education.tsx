@@ -1,12 +1,12 @@
 const educationData = [
   {
-    degree: "Master of Computer Science: MCA",
+    degree: "Master of Computer Applications (MCA)",
     university: "RGTU University",
     location: "Bhopal",
     year: "Jun-2011"
   },
   {
-    degree: "Bachelor of Computer Science: BCA",
+    degree: "Bachelor of Computer Science (BCA)",
     university: "MCRPV University",
     location: "Bhopal",
     year: "Jun-2008"
