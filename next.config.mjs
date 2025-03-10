@@ -9,6 +9,7 @@ try {
 const nextConfig = {
   output: 'export',
   distDir: 'build',
+  assetPrefix: '/_next',
   eslint: {
     ignoreDuringBuilds: true,
   },
