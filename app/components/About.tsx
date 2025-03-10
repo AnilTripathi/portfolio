@@ -3,7 +3,7 @@ const About = () => {
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-xl mx-auto">
           <p className="text-lg text-gray-700 mb-6">
             As a Lead Full Stack Java Developer based in Hyderabad, India, I bring over 13 years of experience in designing
             and implementing robust web applications. My expertise spans across Spring MVC, Spring Boot,
