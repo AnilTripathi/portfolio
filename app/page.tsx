@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Education from './components/Education'
+import Certifications from './components/Certifications'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <About />
         <Experience />
         <Education />
+        <Certifications />
         <Skills />
         <Projects />
         <Contact />
