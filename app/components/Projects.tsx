@@ -66,7 +66,7 @@ const projectsData = [
     client: 'AS Company Product',
     url: null,
     application: 'Web Application',
-    duration: 'Oct 2012 - Ongoing',
+    duration: 'Oct 2012 - Apr 2013',
     description: 'Employee, student, fees, and transport management.',
     role: 'Database Designer and Project Developer',
     responsibilities: 'Coding, implementation, database.',
