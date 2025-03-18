@@ -1,4 +1,4 @@
-import { Code, Database, Server, Layout, Cloud, GitBranch, Package, TestTube, PenToolIcon as Tool, CheckCircle, Leaf } from 'lucide-react'
+import { Code, Database, Server, Layout, Cloud, GitBranch, Package, TestTube, PenToolIcon as Tool, CheckCircle, Leaf, ChevronsLeftRightEllipsis } from 'lucide-react'
 
 const skills = [
   { name: "Java", years: "11+", icon: Code },
@@ -7,12 +7,14 @@ const skills = [
   { name: "MySQL Database", years: "10+", icon: Database },
   { name: "Hibernate", years: "11+", icon: Database },
   { name: "Microservices", years: "2", icon: Server },
+  { name: "Apache Kafka", years: "1", icon: Server },
   { name: "ReactJs", years: "6+", icon: Layout },
   { name: "React-Native", years: "6+", icon: Layout },
   { name: "JQuery", years: "12+", icon: Code },
   { name: "Cloud (AWS)", years: "2", icon: Cloud },
   { name: "RESTful Web Services", years: "11+", icon: Server },
   { name: "JavaScript", years: "12+", icon: Code },
+  { name: "Socket Programming", years: "", icon: ChevronsLeftRightEllipsis },
   { name: "Git version control", years: "", icon: GitBranch },
   { name: "Maven build tools", years: "", icon: Package },
   { name: "Test Driven Development", years: "", icon: TestTube },

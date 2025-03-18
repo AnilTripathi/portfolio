@@ -2,6 +2,78 @@ import ProjectCard from "./ProjectCard";
 
 const projectsData = [
   {
+    "title": "Wellness360 Rest API",
+    "client": "Company Product",
+    "url": null,
+    "application": "Healthcare System REST API",
+    "duration": "-",
+    "description": "This is a healthcare system REST API, an extended version of Wellness360. Used by User Portal and mobile app.",
+    "role": "Software Developer",
+    "responsibilities": "Setup Spring Boot Project, Integrate JWT Auth Token flow, Enable SSO with SAML, 3rd Party client OAuth2 provider implementation, Deployment to the Development server (AWS), Code merging, committing, and reviewing.",
+    "tools": "Spring Boot, MySQL, IntelliJ IED",
+    "category": "Professional"
+  },
+  {
+    "title": "Wellness360 Frontend",
+    "client": "Company Product",
+    "url": "https://www.livewellness360.com",
+    "application": "Health And Wellness Platform Frontend",
+    "duration": "-",
+    "description": "This is a Health And Wellness platform fronend.",
+    "role": "Software Developer",
+    "responsibilities": "Setup And Configur NextJs(ReactJs) Project, Integrate JWT Auth Token flow with Rest API.",
+    "tools": " NextJs(ReactJs), VS Code IDE",
+    "category": "Professional"
+  },
+  {
+    "title": "Wellness Analytics",
+    "client": "Company Product",
+    "url": null,
+    "application": "Analytics System",
+    "duration": "-",
+    "description": "This is an analytics system where clients can view different types of reports and comparisons.",
+    "role": "Software Developer",
+    "responsibilities": "Setup Project, Integrate JWT Auth Token flow, Consume REST API to show data, Code merging, committing, and reviewing.",
+    "tools": "Spring Boot (REST API), Angular, MySQL, Eclipse",
+    "category": "Professional"
+  },
+  {
+    "title": "Wellness360",
+    "client": "Company Product",
+    "url": null,
+    "application": "Healthcare System",
+    "duration": "-",
+    "description": "This is a healthcare system where users can track their fitness. Users can sync 3rd party apps and devices like Fitbit, Jawbone, Moves, etc. The system has a food plan for weight maintenance or loss, providing calorie intake recommendations.",
+    "role": "Software Developer",
+    "responsibilities": "Integration of Bootstrap UI Framework, Design Database, Export trackers data REST API, 3rd Party client OAuth2 provider implementation, Deployment to the Development server (AWS), Code merging, committing, and reviewing.",
+    "tools": "Spring MVC, Ajax, jQuery, MySQL, Eclipse",
+    "category": "Professional"
+  },
+  {
+    "title": "iFittracker",
+    "client": "Company Product",
+    "url": null,
+    "application": "Fitness Tracking Website",
+    "duration": "-",
+    "description": "This is a fitness tracking website where users can sync steps, calories, active minutes, and distance from fitness bands to the server using iOS and Android apps. Users can also sync sleep information and add manual activities like running, walking, swimming, etc.",
+    "role": "Software Developer",
+    "responsibilities": "Integration of Bootstrap UI Framework, Export trackers data REST API, 3rd Party client OAuth2 provider implementation, Deployment to the Development server (AWS), Code merging, committing, and reviewing.",
+    "tools": "Spring MVC, Ajax, jQuery, MySQL, Eclipse",
+    "category": "Professional"
+  },
+  {
+    "title": "myHana",
+    "client": "My Hana",
+    "url": null,
+    "application": "Healthcare System",
+    "duration": "-",
+    "description": "This is a healthcare system where users can track their fitness and take care of their relatives.",
+    "role": "Software Developer",
+    "responsibilities": "Design and development of features based on the User stories defined by BAs, Provide support during releases and issues.",
+    "tools": "Spring MVC, Ajax, jQuery, MySQL, Eclipse",
+    "category": "Professional"
+  },
+  {
     title: 'Mail Server',
     client: 'For Company Use',
     url: null,
