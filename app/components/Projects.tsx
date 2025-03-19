@@ -4,7 +4,7 @@ const projectsData = [
   {
     "title": "Wellness360 Rest API",
     "client": "Company Product",
-    "url": null,
+    "url": "https://stagingapi.livewellness360.com",
     "application": "Healthcare System REST API",
     "duration": "-",
     "description": "This is a healthcare system REST API, an extended version of Wellness360. Used by User Portal and mobile app.",
@@ -23,6 +23,30 @@ const projectsData = [
     "role": "Software Developer",
     "responsibilities": "Setup And Configur NextJs(ReactJs) Project, Integrate JWT Auth Token flow with Rest API.",
     "tools": " NextJs(ReactJs), VS Code IDE",
+    "category": "Professional"
+  },
+  {
+    "title": "Wellness360 Mobile App",
+    "client": "Company Product",
+    "url": "https://play.google.com/store/apps/details?id=com.wellness360.app&pcampaignid=web_share",
+    "application": "Health And Wellness Platform Mobile App",
+    "duration": "-",
+    "description": "This is a Health And Wellness Mobile App.",
+    "role": "Software Developer",
+    "responsibilities": "Setup And Configur React-Native Project, Integrate JWT Auth Token flow with Rest API.",
+    "tools": "React-Native, VS Code IDE",
+    "category": "Professional"
+  },
+  {
+    "title": "Healthier 901 Mobile App",
+    "client": "Client Product",
+    "url": "https://play.google.com/store/apps/details?id=com.healthier901.app&pcampaignid=web_share",
+    "application": "Health And Wellness Platform Mobile App",
+    "duration": "-",
+    "description": "This is a Health And Wellness Mobile App.",
+    "role": "Software Developer",
+    "responsibilities": "Setup And Configur React-Native Project, Integrate JWT Auth Token flow with Rest API.",
+    "tools": "React-Native, VS Code IDE",
     "category": "Professional"
   },
   {

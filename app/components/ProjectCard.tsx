@@ -22,7 +22,7 @@ const ProjectCard = ({ project }: { project: any }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {project.url}
+                    {project.url?"Open Link":""}
                   </a>
                 </p>
               </div>
