@@ -1,30 +1,34 @@
-import { Code, Database, Server, Layout, Cloud, GitBranch, Package, TestTube, PenToolIcon as Tool, CheckCircle, Leaf, ChevronsLeftRightEllipsis } from 'lucide-react'
+import SVGIcon from '@/components/ui/SVGIcon'
+import { Code, Database, Server, Layout, Cloud, GitBranch, Package, TestTube, PenToolIcon as Tool, CheckCircle, Leaf, ChevronsLeftRightEllipsis, ShieldQuestionIcon, ShieldCheckIcon } from 'lucide-react'
 
 const skills = [
-  { name: "Java", years: "11+", icon: Code },
-  { name: "Spring MVC", years: "11+", icon: Server },
-  { name: "Spring Boot", years: "7+", icon: Leaf },
-  { name: "MySQL Database", years: "10+", icon: Database },
-  { name: "Hibernate", years: "11+", icon: Database },
-  { name: "Microservices", years: "2", icon: Server },
-  { name: "Apache Kafka", years: "1", icon: Server },
-  { name: "ReactJs", years: "6+", icon: Layout },
-  { name: "React-Native", years: "6+", icon: Layout },
-  { name: "JQuery", years: "12+", icon: Code },
-  { name: "Cloud (AWS)", years: "2", icon: Cloud },
-  { name: "RESTful Web Services", years: "11+", icon: Server },
-  { name: "JavaScript", years: "12+", icon: Code },
-  { name: "Socket Programming", years: "", icon: ChevronsLeftRightEllipsis },
-  { name: "Git version control", years: "", icon: GitBranch },
-  { name: "Maven build tools", years: "", icon: Package },
-  { name: "Test Driven Development", years: "", icon: TestTube },
-  { name: "SQL programming", years: "", icon: Database },
-  { name: "JUnit testing", years: "", icon: CheckCircle },
-  { name: "Angular", years: "", icon: Layout },
-  { name: "Jenkins", years: "", icon: Tool },
-  { name: "Docker", years: "", icon: Package },
-  { name: "CSS", years: "", icon: Layout },
-  { name: "HTML", years: "", icon: Code },
+  { name: "Java", years: "11+", icon: <Code className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Spring MVC", years: "11+", icon: <Server className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Spring Boot", years: "7+", icon: <Leaf className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "MySQL Database", years: "10+", icon: <Database className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Hibernate", years: "11+", icon: <Database className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Microservices", years: "2", icon: <Server className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Apache Kafka", years: "1", icon: <Server className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "ReactJs", years: "6+", icon: <Layout className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "React-Native", years: "6+", icon: <Layout className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "JQuery", years: "12+", icon: <Code className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Cloud (AWS)", years: "2", icon: <Cloud className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "RESTful Web Services", years: "11+", icon: <Server className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "JavaScript", years: "12+", icon: <Code className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Socket Programming", years: "", icon: <ChevronsLeftRightEllipsis className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "SAML2", years: "", icon: <SVGIcon src="icons/saml2.svg" className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "OAuth 2.0 and OpenID", years: "", icon: <ShieldCheckIcon className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Keycloak Server", years: "", icon: <SVGIcon src='icons/keycloak.svg' className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Git version control", years: "", icon: <GitBranch className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Maven build tools", years: "", icon: <Package className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Test Driven Development", years: "", icon: <TestTube className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "SQL programming", years: "", icon: <Database className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "JUnit testing", years: "", icon: <CheckCircle className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Angular", years: "", icon: <Layout className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Jenkins", years: "", icon: <Tool className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "Docker", years: "", icon: <Package className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "CSS", years: "", icon: <Layout className="w-8 h-8 text-blue-600 mr-4"/> },
+  { name: "HTML", years: "", icon: <Code className="w-8 h-8 text-blue-600 mr-4"/> },
 ]
 
 const Skills = () => {
@@ -40,7 +44,7 @@ const Skills = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {skills.map((skill, index) => (
             <div key={index} className="bg-gray-100 p-6 rounded-lg shadow-md flex items-center">
-              <skill.icon className="w-8 h-8 text-blue-600 mr-4" />
+              {skill.icon}
               <div>
                 <h3 className="text-lg font-semibold">{skill.name}</h3>
                 {skill.years && <p className="text-gray-600 text-sm">{skill.years} Years Experience</p>}
