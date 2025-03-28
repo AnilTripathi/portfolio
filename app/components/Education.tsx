@@ -1,7 +1,7 @@
 const educationData = [
   {
     degree: "Master of Computer Applications (MCA)",
-    university: "RGTU University",
+    university: "RGPV University",
     location: "Bhopal",
     year: "Jun-2011"
   },

@@ -18,10 +18,6 @@ const Footer = () => {
           </div>
           <div className="w-full md:w-1/3 text-center md:text-right">
             <p>&copy; {new Date().getFullYear()} Anil Kumar Tripathi. All rights reserved.</p>
-            <p className="mt-2">
-              <a href="/portfolio/sitemap.xml" className="hover:text-blue-300 mr-4">Sitemap</a>
-              {/* <a href="/privacy-policy" className="hover:text-blue-300">Privacy Policy</a> */}
-            </p>
           </div>
         </div>
       </div>
