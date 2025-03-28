@@ -11,7 +11,7 @@ const Hero = () => {
           <a href="#contact" className="bg-blue-500 text-white py-2 px-6 rounded-full text-lg font-semibold hover:bg-blue-600 transition duration-300">Get in Touch</a>
         </div>
         <div className="md:w-1/2">
-          <Image src="/profile-image.jpeg" alt="Anil Kumar Tripathi - Lead Full Stack Java Developer" width={300} height={300} className="rounded-full mx-auto shadow-xl" />
+          <Image src="/portfolio/profile-image.jpeg" alt="Anil Kumar Tripathi - Lead Full Stack Java Developer" width={300} height={300} className="rounded-full mx-auto shadow-xl" />
         </div>
       </div>
     </section>
