@@ -256,7 +256,7 @@ const projectsData = [
   {
     title: 'Wayofsli.com',
     client: 'wayofsli (Numericinfosystems)',
-    url: 'www.wayofsli.com',
+    url: null,
     application: 'Multi-marketing firm website',
     duration: 'Jan 2010 - May 2010',
     description: 'Customer management in a binary tree structure and payment module.',
