@@ -36,6 +36,14 @@ const Footer = () => {
               >
                 <DynamicIcon name="linkedin" size={48} className="hover:text-blue-400 transition transform hover:scale-110 hover:rotate-6 w-6 h-6"/>
               </a>
+              <a 
+                href="/portfolio/Anil_KumarTripathi.pdf" 
+                download target='_blank'
+                className="hover:text-blue-400 transition transform hover:scale-110 hover:-rotate-6 flex gap-1"
+              >
+                <DynamicIcon name="download-cloud" size={48} className="hover:text-blue-400 transition transform hover:scale-110 hover:rotate-6 w-6 h-6" />
+                <span className="text-sm hidden md:inline">Resume</span> {/* Text visible only on md+ screens */}
+              </a>
             </nav>
           </div>
         </div>

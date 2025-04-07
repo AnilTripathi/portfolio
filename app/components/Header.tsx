@@ -17,6 +17,9 @@ const Header = () => {
           <a href="#skills" className="text-gray-600 hover:text-gray-800">Skills</a>
           <a href="#projects" className="text-gray-600 hover:text-gray-800">Projects</a>
           <a href="#contact" className="text-gray-600 hover:text-gray-800">Contact</a>
+          <a href="/portfolio/Anil_KumarTripathi.pdf" download target='_blank' className="text-gray-600 hover:text-gray-800">
+            Resume
+          </a>
         </nav>
         <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <X /> : <Menu />}
@@ -30,6 +33,9 @@ const Header = () => {
           <a href="#skills" className="block py-2 text-gray-600 hover:text-gray-800">Skills</a>
           <a href="#projects" className="block py-2 text-gray-600 hover:text-gray-800">Projects</a>
           <a href="#contact" className="block py-2 text-gray-600 hover:text-gray-800">Contact</a>
+          <a href="/portfolio/Anil_KumarTripathi.pdf" target='_blank' download className="text-gray-600 hover:text-gray-800">
+            Resume
+          </a>
         </nav>
       )}
     </header>
