@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[85870],{85870:function(e,n,t){t.r(n),t.d(n,{__iconNode:function(){return c},default:function(){return o}});var u=t(43168);let c=[["line",{x1:"18",x2:"18",y1:"20",y2:"4",key:"cun8e5"}],["polygon",{points:"14,20 4,12 14,4",key:"ypakod"}]],o=(0,u.Z)("step-back",c)}}]);

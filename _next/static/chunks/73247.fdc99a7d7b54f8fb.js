@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[73247],{73247:function(e,c,n){n.r(c),n.d(c,{__iconNode:function(){return r},default:function(){return t}});var u=n(43168);let r=[["circle",{cx:"11",cy:"11",r:"8",key:"4ej97u"}],["path",{d:"m21 21-4.3-4.3",key:"1qie3q"}]],t=(0,u.Z)("search",r)}}]);

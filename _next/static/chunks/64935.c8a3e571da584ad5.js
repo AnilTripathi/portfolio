@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[64935],{64935:function(e,n,t){t.r(n),t.d(n,{__iconNode:function(){return o},default:function(){return i}});var u=t(43168);let o=[["polyline",{points:"16 18 22 12 16 6",key:"z7tu5w"}],["polyline",{points:"8 6 2 12 8 18",key:"1eg1df"}]],i=(0,u.Z)("code",o)}}]);

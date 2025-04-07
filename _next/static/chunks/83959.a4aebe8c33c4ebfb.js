@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[83959],{83959:function(n,e,t){t.r(e),t.d(e,{__iconNode:function(){return u},default:function(){return i}});var c=t(43168);let u=[["path",{d:"M20 10c0-4.4-3.6-8-8-8s-8 3.6-8 8 3.6 8 8 8h8",key:"4znkd0"}],["polyline",{points:"16 14 20 18 16 22",key:"11njsm"}]],i=(0,c.Z)("iteration-ccw",u)}}]);

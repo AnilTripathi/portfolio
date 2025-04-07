@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[81625],{81625:function(e,t,u){u.r(t),u.d(t,{__iconNode:function(){return n},default:function(){return r}});var a=u(43168);let n=[["path",{d:"m3 15 4-8 4 8",key:"1vwr6u"}],["path",{d:"M4 13h6",key:"1r9ots"}],["path",{d:"M15 11h4.5a2 2 0 0 1 0 4H15V7h4a2 2 0 0 1 0 4",key:"1sqfas"}]],r=(0,a.Z)("case-upper",n)}}]);

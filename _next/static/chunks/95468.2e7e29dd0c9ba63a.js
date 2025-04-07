@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[95468],{95468:function(e,n,c){c.r(n),c.d(n,{__iconNode:function(){return t},default:function(){return r}});var u=c(43168);let t=[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"m4.9 4.9 14.2 14.2",key:"1m5liu"}]],r=(0,u.Z)("ban",t)}}]);

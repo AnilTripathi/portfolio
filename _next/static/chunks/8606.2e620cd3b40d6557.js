@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8606],{8606:function(e,t,u){u.r(t),u.d(t,{__iconNode:function(){return a},default:function(){return p}});var n=u(43168);let a=[["path",{d:"M22 12a10.06 10.06 1 0 0-20 0Z",key:"1teyop"}],["path",{d:"M12 12v8a2 2 0 0 0 4 0",key:"ulpmoc"}],["path",{d:"M12 2v1",key:"11qlp1"}]],p=(0,n.Z)("umbrella",a)}}]);

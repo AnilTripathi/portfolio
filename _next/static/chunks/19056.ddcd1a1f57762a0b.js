@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[19056],{19056:function(e,n,t){t.r(n),t.d(n,{__iconNode:function(){return c},default:function(){return i}});var u=t(43168);let c=[["path",{d:"M4 10c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8H4",key:"tuf4su"}],["polyline",{points:"8 22 4 18 8 14",key:"evkj9s"}]],i=(0,u.Z)("iteration-cw",c)}}]);

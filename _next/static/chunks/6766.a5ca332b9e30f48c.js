@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[6766],{6766:function(e,n,t){t.r(n),t.d(n,{__iconNode:function(){return a},default:function(){return c}});var u=t(43168);let a=[["path",{d:"M4 3h16a2 2 0 0 1 2 2v6a10 10 0 0 1-10 10A10 10 0 0 1 2 11V5a2 2 0 0 1 2-2z",key:"1mz881"}],["polyline",{points:"8 10 12 14 16 10",key:"w4mbv5"}]],c=(0,u.Z)("pocket",a)}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[40875],{40875:function(n,e,u){u.r(e),u.d(e,{__iconNode:function(){return r},default:function(){return c}});var t=u(43168);let r=[["path",{d:"m6 9 6 6 6-6",key:"qrunsl"}]],c=(0,t.Z)("chevron-down",r)}}]);

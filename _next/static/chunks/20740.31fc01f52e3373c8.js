@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[20740],{20740:function(n,e,o){o.r(e),o.d(e,{__iconNode:function(){return u},default:function(){return i}});var t=o(43168);let u=[["polygon",{points:"11 19 2 12 11 5 11 19",key:"14yba5"}],["polygon",{points:"22 19 13 12 22 5 22 19",key:"1pi1cj"}]],i=(0,t.Z)("rewind",u)}}]);
