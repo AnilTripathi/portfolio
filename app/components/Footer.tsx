@@ -1,4 +1,4 @@
-import { Github, Linkedin } from 'lucide-react';
+import { DynamicIcon } from 'lucide-react/dynamic';
 
 const Footer = () => {
   return (
@@ -26,7 +26,7 @@ const Footer = () => {
                 rel="noopener noreferrer" 
                 className="hover:text-blue-400 transition transform hover:scale-110 hover:rotate-6"
               >
-                <Github className="w-6 h-6" />
+                <DynamicIcon name="github" size={48} className="hover:text-blue-400 transition transform hover:scale-110 hover:rotate-6 w-6 h-6"/>
               </a>
               <a 
                 href="https://www.linkedin.com/in/tripathianil/" 
@@ -34,7 +34,7 @@ const Footer = () => {
                 rel="noopener noreferrer" 
                 className="hover:text-blue-400 transition transform hover:scale-110 hover:-rotate-6"
               >
-                <Linkedin className="w-6 h-6" />
+                <DynamicIcon name="linkedin" size={48} className="hover:text-blue-400 transition transform hover:scale-110 hover:rotate-6 w-6 h-6"/>
               </a>
             </nav>
           </div>
