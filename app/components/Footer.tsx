@@ -1,3 +1,5 @@
+import { Github, Linkedin } from 'lucide-react';
+
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-8">
@@ -16,8 +18,25 @@ const Footer = () => {
               <a href="#contact" className="hover:text-blue-300">Contact</a>
             </nav>
           </div>
-          <div className="w-full md:w-1/3 text-center md:text-right">
-            <p>&copy; {new Date().getFullYear()} Anil Kumar Tripathi. All rights reserved.</p>
+          <div className="w-full md:w-1/3 text-center md:text-right mb-4 md:mb-0">
+            <nav className="flex justify-center md:justify-end space-x-4">
+              <a 
+                href="https://github.com/AnilTripathi" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-blue-400 transition transform hover:scale-110 hover:rotate-6"
+              >
+                <Github className="w-6 h-6" />
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/tripathianil/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-blue-400 transition transform hover:scale-110 hover:-rotate-6"
+              >
+                <Linkedin className="w-6 h-6" />
+              </a>
+            </nav>
           </div>
         </div>
       </div>
