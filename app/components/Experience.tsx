@@ -1,9 +1,41 @@
-const experiences = [
+type Experience = {
+  title: string
+  company: string
+  location: string
+  period: string
+  responsibilities: string[]
+  technologies?: string[]
+}
+
+const experiences: Experience[] = [
+  {
+    title: "Senior Full Stack Software Engineer",
+    company: "Cognizant",
+    location: "Hyderabad, India",
+    period: "Aug 2024 – Present",
+    technologies: [
+      "Java", "Spring Boot", "REST APIs", "React.js", "Next.js", "TypeScript",
+      "PostgreSQL", "Jenkins", "GitHub", "CI/CD",
+    ],
+    responsibilities: [
+      "Full-stack application development",
+      "REST API and backend development using Java and Spring Boot",
+      "Frontend development using React.js, Next.js, and TypeScript",
+      "PostgreSQL database integration",
+      "Code review, debugging, and troubleshooting",
+      "Production issue analysis and resolution",
+      "CI/CD and application deployment using Jenkins and GitHub",
+      "Collaboration with architects and development teams",
+      "AI-assisted code development, review, optimization, and refactoring",
+      "AI-assisted debugging, troubleshooting, test case generation, and documentation",
+      "Reviewing and validating AI-generated code",
+    ],
+  },
   {
     title: "Lead Full Stack Java Developer",
     company: "Valley Tech Software Solutions",
     location: "Hyderabad, India",
-    period: "Sep 2018 - Current",
+    period: "Sep 2018 - Aug 2024",
     responsibilities: [
       "Led a team in setting up and configuring Spring Boot REST API with JWT Token authentication",
       "Implemented Single Sign-On (SSO) with SAML support for enhanced security",
@@ -75,6 +107,15 @@ const Experience = () => {
             <h3 className="text-2xl font-semibold mb-2">{exp.title}</h3>
             <p className="text-gray-600 mb-2">{exp.company} | {exp.location}</p>
             <p className="text-gray-600 mb-4">{exp.period}</p>
+            {exp.technologies && (
+              <div className="flex flex-wrap gap-2 mb-4">
+                {exp.technologies.map((tech, idx) => (
+                  <span key={idx} className="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full border border-gray-300">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            )}
             <ul className="list-disc pl-6">
               {exp.responsibilities.map((resp, idx) => (
                 <li key={idx} className="text-gray-700 mb-2">{resp}</li>
