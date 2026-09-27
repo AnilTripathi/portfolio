@@ -4,57 +4,72 @@ const ProjectCard = ({ project }: { project: any }) => {
   return (
     <div className="bg-white rounded-lg overflow-hidden">
       <div className="p-6">
+
+        {/* Title */}
         <h3 className="text-xl font-semibold text-gray-900 mb-4">
           {project.title}
         </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+        {/* Row 1: Client | Application */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 mb-2">
           <div>
-            <div className="mb-2">
-              <strong className="text-sm font-medium text-gray-700">Client:</strong>
-              <p className="text-sm text-gray-600">{project.client}</p>
-            </div>
-            {project.url && (
-              <div className="mb-2">
-                <strong className="text-sm font-medium text-gray-700">URL:</strong>
-                <p className="text-sm text-blue-600 hover:underline">
-                  <a
-                    href={project.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {project.url?"Open Link":""}
-                  </a>
-                </p>
-              </div>
+            <span className="text-sm font-medium text-gray-700">Client: </span>
+            <span className="text-sm text-gray-600">{project.client}</span>
+          </div>
+          <div>
+            <span className="text-sm font-medium text-gray-700">Application: </span>
+            <span className="text-sm text-gray-600">{project.application}</span>
+          </div>
+        </div>
+
+        {/* Row 2: Role | URL */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 mb-4">
+          <div>
+            <span className="text-sm font-medium text-gray-700">Role: </span>
+            <span className="text-sm text-gray-600">{project.role}</span>
+          </div>
+          <div>
+            {project.url ? (
+              <>
+                <span className="text-sm font-medium text-gray-700">URL: </span>
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-blue-600 hover:underline break-all"
+                >
+                  Open Link
+                </a>
+              </>
+            ) : (
+              <>
+                <span className="text-sm font-medium text-gray-700">Tools: </span>
+                <span className="text-sm text-gray-600">{project.tools}</span>
+              </>
             )}
-            <div className="mb-2">
-              <strong className="text-sm font-medium text-gray-700">Application:</strong>
-              <p className="text-sm text-gray-600">{project.application}</p>
-            </div>
-            <div className="mb-2">
-              <strong className="text-sm font-medium text-gray-700">Duration:</strong>
-              <p className="text-sm text-gray-600">{project.duration}</p>
-            </div>
-          </div>
-          <div>
-            <div className="mb-2">
-              <strong className="text-sm font-medium text-gray-700">Role:</strong>
-              <p className="text-sm text-gray-600">{project.role}</p>
-            </div>
-            <div className="mb-2">
-              <strong className="text-sm font-medium text-gray-700">Responsibilities:</strong>
-              <p className="text-sm text-gray-600">{project.responsibilities}</p>
-            </div>
-            <div className="mb-2">
-              <strong className="text-sm font-medium text-gray-700">Tools:</strong>
-              <p className="text-sm text-gray-600">{project.tools}</p>
-            </div>
           </div>
         </div>
-        <div className="mt-4">
-          <strong className="text-sm font-medium text-gray-700">Description:</strong>
-          <p className="text-sm text-gray-700">{project.description}</p>
+
+        {/* Tools row — only shown when URL is present */}
+        {project.url && (
+          <div className="mb-4">
+            <span className="text-sm font-medium text-gray-700">Tools: </span>
+            <span className="text-sm text-gray-600">{project.tools}</span>
+          </div>
+        )}
+
+        {/* Responsibilities */}
+        <div className="mb-3">
+          <p className="text-sm font-medium text-gray-700 mb-1">Responsibilities:</p>
+          <p className="text-sm text-gray-600 leading-relaxed">{project.responsibilities}</p>
         </div>
+
+        {/* Description */}
+        <div>
+          <p className="text-sm font-medium text-gray-700 mb-1">Description:</p>
+          <p className="text-sm text-gray-600 leading-relaxed">{project.description}</p>
+        </div>
+
       </div>
     </div>
   );
