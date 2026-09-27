@@ -2,7 +2,7 @@
 
 Personal portfolio website for **Anil Kumar Tripathi**, a Senior Full Stack Software Engineer with 13+ years of experience in Java, Spring Boot, React.js, and Microservices.
 
-🌐 **Live Site:** [https://www.anilkumartripathi.com](https://www.anilkumartripathi.com)
+🌐 **Live Site:** [https://aniltripathi.github.io/portfolio](https://aniltripathi.github.io/portfolio)
 
 ---
 
