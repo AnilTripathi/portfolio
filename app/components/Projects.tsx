@@ -2,6 +2,18 @@ import ProjectCard from "./ProjectCard";
 
 const projectsData = [
   {
+    title: "Enterprise Banking Services Application",
+    client: "DFS (Discover Financial Services)",
+    url: "https://www.discover.com/",
+    application: "Enterprise Banking Services Application",
+    duration: "-",
+    description: "An enterprise banking application that supports internal banking operations and critical business processes. The application provides capabilities for fraud and risk-related operations, organization and user management, and access management for internal and external applications.",
+    role: "Full Stack Developer",
+    responsibilities: "Developing and maintaining full-stack banking applications using Java, Spring Boot, JavaScript, and FTL. Implementing new functionalities and enhancements based on business requirements. Troubleshooting and resolving production issues through debugging and root-cause analysis. Working with Oracle DB for application development and data-related issues. Collaborating with team members, supporting technical challenges, and participating in code reviews.",
+    tools: "Java, Spring Boot, JavaScript, FTL (FreeMarker Template Language), Oracle DB, IntelliJ IDEA",
+    category: "Professional",
+  },
+  {
     "title": "Wellness360 Rest API",
     "client": "Company Product",
     "url": "https://stagingapi.livewellness360.com",
