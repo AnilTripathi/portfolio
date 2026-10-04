@@ -9,7 +9,7 @@ type Experience = {
 
 const experiences: Experience[] = [
   {
-    title: "Senior Full Stack Software Engineer",
+    title: "Lead Full Stack Software Engineer",
     company: "Cognizant",
     location: "Hyderabad, India",
     period: "Aug 2024 – Present",
