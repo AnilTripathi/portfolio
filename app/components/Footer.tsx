@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between items-center">
           <div className="w-full md:w-1/3 text-center md:text-left mb-4 md:mb-0">
             <h3 className="text-xl font-semibold mb-2">Anil Kumar Tripathi</h3>
-            <p>Lead Full Stack Java Developer</p>
+            <p>Lead Full Stack Software Engineer</p>
           </div>
           <div className="w-full md:w-1/3 text-center mb-4 md:mb-0">
             <h4 className="text-lg font-semibold mb-2">Quick Links</h4>
