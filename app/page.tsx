@@ -31,10 +31,10 @@ export default function Home() {
 }
 
 export const metadata = {
-  title: 'Anil Kumar Tripathi - Lead Full Stack Java Developer',
-  description: 'Explore the portfolio of Anil Kumar Tripathi, a seasoned Lead Full Stack Java Developer with expertise in Spring Boot, ReactJs,Apache Kafka, React-Native, and Microservices Architecture. Based in India.',
+  title: 'Anil Kumar Tripathi - Lead Full Stack Software Engineer',
+  description: 'Explore the portfolio of Anil Kumar Tripathi, a seasoned Lead Full Stack Software Engineer with expertise in Spring Boot, ReactJs,Apache Kafka, React-Native, and Microservices Architecture. Based in India.',
   openGraph: {
-    title: 'Anil Kumar Tripathi - Lead Full Stack Java Developer',
+    title: 'Anil Kumar Tripathi - Lead Full Stack Software Engineer',
     description: 'Portfolio of Anil Kumar Tripathi, showcasing 13+ years of experience in full stack development.',
     url: 'https://www.anilkumartripathi.com',
     siteName: 'Anil Kumar Tripathi',
@@ -50,7 +50,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Anil Kumar Tripathi - Lead Full Stack Java Developer',
+    title: 'Anil Kumar Tripathi - Lead Full Stack Software Engineer',
     description: 'Explore the portfolio of Anil Kumar Tripathi, a seasoned Full Stack Java Developer.',
     images: ['https://www.anilkumartripathi.com/twitter-image.jpg'],
   },

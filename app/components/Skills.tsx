@@ -37,7 +37,7 @@ const Skills = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center text-white">Technical Skills</h2>
         <p className="text-lg text-slate-300 mb-8 mx-auto">
-          As a Lead Full Stack Java Developer, I have honed a diverse set of skills that enable me to tackle complex
+          As a Lead Full Stack Software Engineer, I have honed a diverse set of skills that enable me to tackle complex
           projects from end to end. My expertise spans both back-end and front-end technologies, allowing me to create
           robust, scalable, and user-friendly applications.
         </p>

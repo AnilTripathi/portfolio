@@ -17,7 +17,7 @@ const CoverPage = () => {
                 Anil Kumar Tripathi
               </h1>
               <h2 className="text-2xl md:text-3xl mb-6 text-blue-100">
-                Lead Full Stack Java Developer
+                Lead Full Stack Software Engineer
               </h2>
               <p className="text-xl text-gray-200 mb-8 max-w-2xl">
                 With over 13 years of experience in designing and implementing robust web applications using Spring Boot, React, and Microservices.

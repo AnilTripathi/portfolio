@@ -5,7 +5,7 @@ const About = () => {
         <h2 className="text-3xl font-bold mb-8 text-center text-slate-800">About Me</h2>
         <div className="mx-auto">
           <p className="text-lg text-slate-600 mb-6">
-            As a Lead Full Stack Java Developer based in Hyderabad, India, I bring over 13 years of experience in designing
+            As a LLead Full Stack Software Engineer based in Hyderabad, India, I bring over 13 years of experience in designing
             and implementing robust web applications. My expertise spans across Spring MVC, Spring Boot,
             Hibernate, and Microservices, allowing me to deliver comprehensive solutions for complex business needs.
           </p>

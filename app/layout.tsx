@@ -4,9 +4,9 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Anil Kumar Tripathi - Lead Full Stack Java Developer',
-  description: 'Portfolio of Anil Kumar Tripathi, a Lead Full Stack Java Developer with over 13 years of experience in designing and implementing robust web applications.',
-  keywords: 'Java Developer, Full Stack Developer, Spring Boot, React, Microservices, Hyderabad',
+  title: 'Anil Kumar Tripathi - Lead Full Stack Software Engineer',
+  description: 'Portfolio of Anil Kumar Tripathi, a Lead Full Stack Software Engineer with over 13 years of experience in designing and implementing robust web applications.',
+  keywords: 'Software Engineer, Full Stack Developer, Spring Boot, React, Microservices, Hyderabad',
 }
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
             "@context": "http://schema.org",
             "@type": "Person",
             "name": "Anil Kumar Tripathi",
-            "jobTitle": "Lead Full Stack Java Developer",
+            "jobTitle": "Lead Full Stack Software Engineer",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Hyderabad",
