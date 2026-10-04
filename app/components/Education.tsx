@@ -3,13 +3,15 @@ const educationData = [
     degree: "Master of Computer Applications (MCA)",
     university: "RGPV University",
     location: "Bhopal",
-    year: "Jun-2011"
+    year: "Jun-2011",
+    label: "Post Graduated"
   },
   {
     degree: "Bachelor of Computer Science (BCA)",
     university: "MCRPV University",
     location: "Bhopal",
-    year: "Jun-2008"
+    year: "Jun-2008",
+    label: "Graduated"
   }
 ]
 
@@ -24,7 +26,7 @@ const Education = () => {
               <h3 className="text-xl font-semibold mb-2 text-slate-800">{edu.degree}</h3>
               <p className="text-blue-600 font-medium mb-1">{edu.university}</p>
               <p className="text-slate-500 mb-1">{edu.location}</p>
-              <p className="text-slate-500">Graduated: {edu.year}</p>
+              <p className="text-slate-500">{edu.label}: {edu.year}</p>
             </div>
           ))}
         </div>
