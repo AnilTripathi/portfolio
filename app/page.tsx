@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import BackToTop from './components/BackToTop'
 import Education from './components/Education'
 import Certifications from './components/Certifications'
 
@@ -24,6 +25,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <BackToTop />
     </div>
   )
 }
