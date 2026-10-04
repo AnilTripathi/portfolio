@@ -33,21 +33,21 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 bg-white">
+    <section id="skills" className="py-20 bg-slate-900">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">Technical Skills</h2>
-        <p className="text-lg text-gray-700 mb-8 mx-auto">
+        <h2 className="text-3xl font-bold mb-8 text-center text-white">Technical Skills</h2>
+        <p className="text-lg text-slate-300 mb-8 mx-auto">
           As a Lead Full Stack Java Developer, I have honed a diverse set of skills that enable me to tackle complex
           projects from end to end. My expertise spans both back-end and front-end technologies, allowing me to create
           robust, scalable, and user-friendly applications.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {skills.map((skill, index) => (
-            <div key={index} className="bg-gray-100 p-6 rounded-lg shadow-md flex items-center">
+            <div key={index} className="bg-slate-800 p-6 rounded-lg shadow-md flex items-center border border-slate-700 hover:border-blue-500 transition-colors">
               {skill.icon}
               <div>
-                <h3 className="text-lg font-semibold">{skill.name}</h3>
-                {skill.years && <p className="text-gray-600 text-sm">{skill.years} Years Experience</p>}
+                <h3 className="text-lg font-semibold text-white">{skill.name}</h3>
+                {skill.years && <p className="text-blue-400 text-sm">{skill.years} Years Experience</p>}
               </div>
             </div>
           ))}

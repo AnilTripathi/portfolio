@@ -284,22 +284,22 @@ const Projects = () => {
   const academicProjects = projectsData.filter((project) => project.category === 'Academic');
 
   return (
-    <section id="projects" className="py-20 bg-gray-100">
+    <section id="projects" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
-        <div className="text-gray-700">
-        <h3 className="text-2xl font-semibold text-gray-800 mb-4">Professional Projects</h3>
+        <h2 className="text-3xl font-bold mb-8 text-center text-slate-800">Projects</h2>
+        <div className="text-slate-700">
+        <h3 className="text-2xl font-semibold text-blue-700 mb-4">Professional Projects</h3>
         <div className="grid gap-6 md:grid-cols-2">
           {professionalProjects.map((project) => (
-            <div key={`dv${project.title}`} className="bg-white p-6 rounded-lg shadow-md">
+            <div key={`dv${project.title}`} className="bg-slate-50 p-6 rounded-lg shadow-md border-l-4 border-blue-500">
               <ProjectCard key={project.title} project={project} />
             </div>
           ))}
         </div>
-        <h3 className="text-2xl font-semibold text-gray-800 mb-4 mt-8">Academic Projects</h3>
+        <h3 className="text-2xl font-semibold text-blue-700 mb-4 mt-8">Academic Projects</h3>
         <div className="grid gap-6 md:grid-cols-2">
           {academicProjects.map((project) => (
-            <div key={`dv${project.title}`} className="bg-white p-6 rounded-lg shadow-md">
+            <div key={`dv${project.title}`} className="bg-slate-50 p-6 rounded-lg shadow-md border-l-4 border-indigo-400">
               <ProjectCard key={project.title} project={project} />
             </div>
           ))}

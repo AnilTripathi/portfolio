@@ -99,18 +99,18 @@ const experiences: Experience[] = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="mt-20 bg-gray-100">
+    <section id="experience" className="mt-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">Work Experience</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center text-slate-800">Work Experience</h2>
         {experiences.map((exp, index) => (
-          <div key={index} className="mb-12 bg-white p-6 rounded-lg shadow-md">
-            <h3 className="text-2xl font-semibold mb-2">{exp.title}</h3>
-            <p className="text-gray-600 mb-2">{exp.company} | {exp.location}</p>
-            <p className="text-gray-600 mb-4">{exp.period}</p>
+          <div key={index} className="mb-12 bg-slate-50 p-6 rounded-lg shadow-md border-l-4 border-blue-500">
+            <h3 className="text-2xl font-semibold mb-2 text-slate-800">{exp.title}</h3>
+            <p className="text-blue-600 font-medium mb-1">{exp.company} | {exp.location}</p>
+            <p className="text-slate-500 text-sm mb-4">{exp.period}</p>
             {exp.technologies && (
               <div className="flex flex-wrap gap-2 mb-4">
                 {exp.technologies.map((tech, idx) => (
-                  <span key={idx} className="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full border border-gray-300">
+                  <span key={idx} className="bg-blue-50 text-blue-700 text-sm px-3 py-1 rounded-full border border-blue-200">
                     {tech}
                   </span>
                 ))}
@@ -118,7 +118,7 @@ const Experience = () => {
             )}
             <ul className="list-disc pl-6">
               {exp.responsibilities.map((resp, idx) => (
-                <li key={idx} className="text-gray-700 mb-2">{resp}</li>
+                <li key={idx} className="text-slate-600 mb-2">{resp}</li>
               ))}
             </ul>
           </div>
