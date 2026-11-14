@@ -12,7 +12,7 @@ const experiences: Experience[] = [
     title: "Lead Full Stack Software Engineer",
     company: "Cognizant",
     location: "Hyderabad, India",
-    period: "Aug 2024 – Present",
+    period: "Aug 2025 – Present",
     technologies: [
       "Java", "Spring Boot", "REST APIs", "React.js", "Next.js", "TypeScript",
       "PostgreSQL", "Jenkins", "GitHub", "CI/CD",
@@ -35,7 +35,7 @@ const experiences: Experience[] = [
     title: "Lead Full Stack Java Developer",
     company: "Valley Tech Software Solutions",
     location: "Hyderabad, India",
-    period: "Sep 2018 - Aug 2024",
+    period: "Sep 2018 - Aug 2025",
     responsibilities: [
       "Led a team in setting up and configuring Spring Boot REST API with JWT Token authentication",
       "Implemented Single Sign-On (SSO) with SAML support for enhanced security",
