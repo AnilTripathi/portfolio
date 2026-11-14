@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[40887],{40887:(a,e,l)=>{l.r(e),l.d(e,{__iconNode:()=>p,default:()=>_});var t=l(55129);let p=[["path",{d:"M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16",key:"tarvll"}]],_=(0,t.A)("laptop",p)}}]);

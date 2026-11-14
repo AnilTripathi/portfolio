@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[24033],{24033:(e,n,s)=>{s.r(n),s.d(n,{__iconNode:()=>_,default:()=>a});var u=s(55129);let _=[["path",{d:"m6 9 6 6 6-6",key:"qrunsl"}]],a=(0,u.A)("chevron-down",_)}}]);

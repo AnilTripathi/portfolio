@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4998],{4998:(e,a,h)=>{h.r(a),h.d(a,{__iconNode:()=>k,default:()=>s});var t=h(55129);let k=[["path",{d:"M16 3h2a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-2",key:"tum69e"}],["path",{d:"M8 21H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2",key:"z7wn0n"}]],s=(0,t.A)("brackets",k)}}]);
